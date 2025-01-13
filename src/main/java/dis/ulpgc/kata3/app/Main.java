@@ -1,11 +1,11 @@
-package dis.ulpgc.kata2.app;
+package dis.ulpgc.kata3.app;
 
-import dis.ulpgc.kata2.architecture.control.ToggleBarchartCommand;
-import dis.ulpgc.kata2.architecture.io.FileTitleLoader;
-import dis.ulpgc.kata2.architecture.io.MoviesBarchartLoader;
-import dis.ulpgc.kata2.architecture.model.FromMapBarchartElementBuilder;
-import dis.ulpgc.kata2.architecture.model.Title;
-import dis.ulpgc.kata2.architecture.model.TsvTitleDeserializer;
+import dis.ulpgc.kata3.architecture.control.ToggleBarchartCommand;
+import dis.ulpgc.kata3.architecture.io.FileTitleLoader;
+import dis.ulpgc.kata3.architecture.io.MoviesBarchartLoader;
+import dis.ulpgc.kata3.architecture.model.FromMapBarchartElementBuilder;
+import dis.ulpgc.kata3.architecture.model.Title;
+import dis.ulpgc.kata3.architecture.model.TsvTitleDeserializer;
 
 import java.io.*;
 import java.util.HashMap;

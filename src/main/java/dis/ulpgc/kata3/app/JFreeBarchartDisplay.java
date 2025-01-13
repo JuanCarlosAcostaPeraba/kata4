@@ -1,7 +1,7 @@
-package dis.ulpgc.kata2.app;
+package dis.ulpgc.kata3.app;
 
-import dis.ulpgc.kata2.architecture.model.Barchart;
-import dis.ulpgc.kata2.architecture.view.BarchartDisplay;
+import dis.ulpgc.kata3.architecture.model.Barchart;
+import dis.ulpgc.kata3.architecture.view.BarchartDisplay;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 

@@ -1,6 +1,6 @@
-package dis.ulpgc.kata2.app;
+package dis.ulpgc.kata3.app;
 
-import dis.ulpgc.kata2.architecture.control.Command;
+import dis.ulpgc.kata3.architecture.control.Command;
 
 import javax.swing.*;
 import java.awt.*;
