@@ -1,4 +1,7 @@
-package dis.ulpgc.kata2;
+package dis.ulpgc.kata2.architecture.io;
+
+import dis.ulpgc.kata2.architecture.model.Title;
+import dis.ulpgc.kata2.architecture.model.TitleDeserializer;
 
 import java.io.*;
 import java.util.ArrayList;
