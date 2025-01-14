@@ -1,4 +1,4 @@
-package dis.ulpgc.kata3.architecture.model;
+package dis.ulpgc.kata4.architecture.model;
 
 public interface TitleDeserializer {
     Title deserialize(String line);

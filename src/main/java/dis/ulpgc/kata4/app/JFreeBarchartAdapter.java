@@ -1,7 +1,7 @@
-package dis.ulpgc.kata3.app;
+package dis.ulpgc.kata4.app;
 
-import dis.ulpgc.kata3.architecture.model.Barchart;
-import dis.ulpgc.kata3.architecture.model.BarchartElement;
+import dis.ulpgc.kata4.architecture.model.Barchart;
+import dis.ulpgc.kata4.architecture.model.BarchartElement;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.CategoryLabelPositions;
