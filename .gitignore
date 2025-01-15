@@ -4,6 +4,7 @@ target/
 !**/src/test/**/target/
 
 title.basics.tsv
+titles.db
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
