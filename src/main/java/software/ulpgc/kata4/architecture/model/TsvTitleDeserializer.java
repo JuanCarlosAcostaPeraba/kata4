@@ -1,4 +1,4 @@
-package dis.ulpgc.kata4.architecture.model;
+package software.ulpgc.kata4.architecture.model;
 
 public class TsvTitleDeserializer implements TitleDeserializer {
     @Override
@@ -7,7 +7,7 @@ public class TsvTitleDeserializer implements TitleDeserializer {
     }
 
     private Title deserialize(String[] split) {
-        return new Title(split[3], toInt(split[5]), toInt(split[7]), Title.TitleType.valueOf(split[1].toUpperCase()));
+        return new Title(split[0], split[3], toInt(split[5]), toInt(split[7]), Title.TitleType.valueOf(split[1].toUpperCase()));
     }
 
     private int toInt(String value) {

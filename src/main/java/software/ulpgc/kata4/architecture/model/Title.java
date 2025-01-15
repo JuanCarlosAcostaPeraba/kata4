@@ -1,12 +1,14 @@
-package dis.ulpgc.kata4.architecture.model;
+package software.ulpgc.kata4.architecture.model;
 
 public class Title {
+    private final String id;
     private final String title;
     private final int year;
     private final int duration;
     private final TitleType titleType;
 
-    public Title(String title, int year, int duration, TitleType titleType) {
+    public Title(String id, String title, int year, int duration, TitleType titleType) {
+        this.id = id;
         this.title = title;
         this.year = year;
         this.duration = duration;
@@ -32,11 +34,16 @@ public class Title {
     @Override
     public String toString() {
         return "Title{" +
-                "title='" + title + '\'' +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
                 ", year=" + year +
                 ", duration=" + duration +
                 ", titleType=" + titleType +
                 '}';
+    }
+
+    public String getId() {
+        return id;
     }
 
     public enum TitleType {

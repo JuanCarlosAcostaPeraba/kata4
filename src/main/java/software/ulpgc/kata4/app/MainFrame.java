@@ -1,6 +1,6 @@
-package dis.ulpgc.kata4.app;
+package software.ulpgc.kata4.app;
 
-import dis.ulpgc.kata4.architecture.control.Command;
+import software.ulpgc.kata4.architecture.control.Command;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
     private final JFreeBarchartDisplay display;
 
     public MainFrame() throws HeadlessException {
-        this.setTitle("Kata 3");
+        this.setTitle("Kata 4");
         this.setSize(Toolkit.getDefaultToolkit().getScreenSize());
         this.setLocationRelativeTo(null);
         this.setLayout(new BorderLayout());

@@ -1,4 +1,4 @@
-package dis.ulpgc.kata4.architecture.model;
+package software.ulpgc.kata4.architecture.model;
 
 import java.util.Iterator;
 import java.util.List;
