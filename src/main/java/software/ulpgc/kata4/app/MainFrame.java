@@ -1,6 +1,6 @@
 package software.ulpgc.kata4.app;
 
-import software.ulpgc.kata4.architecture.control.Command;
+import software.ulpgc.kata4.control.Command;
 
 import javax.swing.*;
 import java.awt.*;

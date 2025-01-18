@@ -2,15 +2,15 @@ package software.ulpgc.kata4.app;
 
 import software.ulpgc.kata4.app.io.sqlite.DatabaseTitleWriter;
 import software.ulpgc.kata4.app.io.sqlite.DatabaseTitlesReader;
-import software.ulpgc.kata4.architecture.control.ImportCommand;
-import software.ulpgc.kata4.architecture.control.ToggleBarchartCommand;
-import software.ulpgc.kata4.architecture.io.FileTitleReader;
-import software.ulpgc.kata4.architecture.io.MoviesBarchartLoader;
-import software.ulpgc.kata4.architecture.io.TitleReader;
-import software.ulpgc.kata4.architecture.io.TitleWriter;
-import software.ulpgc.kata4.architecture.model.FromMapBarchartElementBuilder;
-import software.ulpgc.kata4.architecture.model.Title;
-import software.ulpgc.kata4.architecture.model.TsvTitleDeserializer;
+import software.ulpgc.kata4.control.ImportCommand;
+import software.ulpgc.kata4.control.ToggleBarchartCommand;
+import software.ulpgc.kata4.io.FileTitleReader;
+import software.ulpgc.kata4.io.MoviesBarchartLoader;
+import software.ulpgc.kata4.io.TitleReader;
+import software.ulpgc.kata4.io.TitleWriter;
+import software.ulpgc.kata4.model.FromMapBarchartElementBuilder;
+import software.ulpgc.kata4.model.Title;
+import software.ulpgc.kata4.model.TsvTitleDeserializer;
 
 import java.io.*;
 import java.sql.SQLException;

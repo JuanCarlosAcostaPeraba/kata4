@@ -1,6 +1,6 @@
 package software.ulpgc.kata4.app.io.sqlite;
 
-import software.ulpgc.kata4.architecture.model.Title;
+import software.ulpgc.kata4.model.Title;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

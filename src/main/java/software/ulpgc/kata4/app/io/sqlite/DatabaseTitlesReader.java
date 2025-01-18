@@ -1,7 +1,7 @@
 package software.ulpgc.kata4.app.io.sqlite;
 
-import software.ulpgc.kata4.architecture.io.TitlesReader;
-import software.ulpgc.kata4.architecture.model.Title;
+import software.ulpgc.kata4.io.TitlesReader;
+import software.ulpgc.kata4.model.Title;
 
 import java.io.File;
 import java.io.IOException;
